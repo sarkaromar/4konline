@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti|Italianno|Lobster|Niconne|Pacifico|Quicksand");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #111 !important;
+  font-family: 'Hind Vadodara', sans-serif; }
+
+.btn-danger {
+  background: #c51162 !important;
+  border: #c51162 !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important; }
+
+.btn-outline-danger {
+  background: #8e0038 !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  color: #ffffff !important; }
+  .btn-outline-danger:hover {
+    background: #c51162 !important; }
+
+.form-control {
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important; }
+
+@media (max-width: 575px) {
+  .dn {
+    display: none; } }
+
+.duration-1 {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms; }
+
+.duration-2 {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms; }
+
+.duration-3 {
+  -webkit-animation-duration: 1500ms;
+  animation-duration: 1500ms; }
+
+.duration-4 {
+  -webkit-animation-duration: 2000ms;
+  animation-duration: 2000ms; }
+
+.duration-5 {
+  -webkit-animation-duration: 2500ms;
+  animation-duration: 2500ms; }
+
+.delay-1 {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms; }
+
+.delay-2 {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms; }
+
+.delay-3 {
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms; }
+
+.delay-4 {
+  -webkit-animation-delay: 2000ms;
+  animation-delay: 2000ms; }
+
+.delay-5 {
+  -webkit-animation-delay: 2500ms;
+  animation-delay: 2500ms; }
+
+h1 {
+  color: #c51162 !important; }
+
+h2 {
+  color: #ffffff !important;
+  font-family: "Lobster", cursive; }
+
+h3 {
+  color: #ffffff !important;
+  font-family: "Lobster", cursive; }
+
+p {
+  color: #ec407a !important; }
+
+.sub-header {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  height: 200px; }
+  .sub-header .logo a {
+    text-decoration: none; }
+  .sub-header .logo img {
+    width: 200px !important; }
+  .sub-header .logo h3 {
+    text-align: left !important;
+    font-size: 20px;
+    text-decoration: none; }
+
+.header {
+  text-align: center; }
+  @media (max-width: 991px) {
+    .header {
+      position: initial; } }
+  .header .logo {
+    padding: 15px;
+    margin: 15px; }
+    .header .logo img {
+      width: 300px; }
+
+.nav-menu {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0;
+  width: 50px;
+  height: 50px;
+  color: #fff; }
+
+.sub-body {
+  padding: 15px;
+  margin: 15px;
+  background: rgba(0, 0, 0, 0.5); }
+  .sub-body p {
+    color: #fff !important; }
+
+.main-body {
+  padding: 0 100px; }
+  .main-body p {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    color: #fff !important; }
+
+.fourk {
+  position: fixed;
+  bottom: 35px;
+  left: 35px;
+  right: 35px; }
+  .fourk .fourk-single {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 15px;
+    text-align: center; }
+    .fourk .fourk-single img {
+      max-height: 75px; }
+    .fourk .fourk-single h1 {
+      font-size: 20px !important;
+      color: #fff !important; }
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("../images/poster.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity; }
+
+.stopfade {
+  opacity: .5; }
+
+#polina {
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight: 100;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin: 2rem;
+  float: right;
+  font-size: 1.2rem; }
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem; }
+
+@media screen and (max-width: 500px) {
+  div {
+    width: 70%; } }
+
+@media screen and (max-device-width: 800px) {
+  html {
+    background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid {
+    display: none; } }
+
+button.nav-menu.x-button {
+  right: 0;
+  top: 0; }
+
+.menu_desc {
+  margin: 0px 0px 0px 10px;
+  font-size: 2.0vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0;
+  float: right; }
+
+.toggle-menu {
+  position: fixed;
+  color: #FFF;
+  cursor: pointer;
+  z-index: 100000; }
+
+.menu_container {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.first_menu {
+  margin: 0;
+  padding: 0; }
+
+.first_menu > li {
+  margin: 10px 30px 0px 0px;
+  padding: 0; }
+
+.sidebar_menu {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease; }
+
+.close {
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  opacity: 0.7;
+  cursor: pointer;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.close:hover {
+  opacity: 1; }
+
+.x-button {
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  opacity: 0.7;
+  cursor: pointer;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.x-button:hover {
+  opacity: 1; }
+
+.boxed-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 50;
+  display: inline-block;
+  border: 2px solid #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FFF;
+  text-align: center;
+  margin-top: 3.0vw;
+  font-size: 2.0vmin; }
+
+.logo_bold {
+  font-weight: 900; }
+
+.navigation_item {
+  margin-right: 0px;
+  color: #FFF;
+  margin-top: 1vw; }
+
+.navigation_selection > li {
+  position: relative;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.6vw; }
+  .navigation_selection > li a {
+    color: #fff !important;
+    text-decoration: none; }
+
+.navigation_selection > li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  -webkit-transition: width 0s ease, background 0.6s ease;
+  transition: width 0s ease, background 0.6s ease; }
+
+.navigation_selection > li:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #FFFFFF;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease; }
+
+.navigation_selection > li:hover:before {
+  width: 100%;
+  background: #FFFFFF;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease; }
+
+.navigation_selection > li:hover:after {
+  width: 100%;
+  background: transparent;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease; }
+
+.navigation_selection > li:last-child {
+  float: right; }
+
+.navigation_selection {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  margin-top: 50px; }
+
+.sidebar_menu.open {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease; }
+
+.right {
+  -webkit-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  transform: translateX(20%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease; }
+
+.left {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease; }
+
+.outer_wrapper {
+  overflow: hidden; }
+
+/* close button styling*/
